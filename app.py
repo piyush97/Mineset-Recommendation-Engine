@@ -3,9 +3,9 @@ from datetime import timedelta
 from datetime import datetime
 
 #import data
-airdata=pd.read_csv("C:\\Users\\canara\\Documents\\air quality dataset sample.csv ")
-waterdata=pd.read_csv("C:\\Users\\canara\\Documents\\Surface Water Quality Analysis.csv")
-noisedata=pd.read_csv("C:\\Users\\canara\\Documents\\noisedata.csv")
+airdata=pd.read_csv("air quality dataset sample.csv ")
+waterdata=pd.read_csv("Surface Water Quality Analysis.csv")
+noisedata=pd.read_csv("noisedata.csv")
 
 #air pollution index calculation
 airval=airdata.columns.values
